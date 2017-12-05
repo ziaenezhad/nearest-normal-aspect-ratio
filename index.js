@@ -27,7 +27,7 @@ export default function(width, height, side, maxWidth, maxHeight) {
         ratiosH.forEach(function(empty, ratioH) {
             ++ratioH;
 
-            ratioX = (ratioW * 100) / (ratioH * 100);
+            var ratioX = (ratioW * 100) / (ratioH * 100);
 
             if (!ratiosT[ratioX]) {
                 ratiosT[ratioX] = true;
