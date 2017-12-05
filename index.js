@@ -9,7 +9,7 @@
  * @param {integer} maxWidth: The maximum width in the nearest normal aspect ratio. Defaults to 16.
  * @param {integer} maxWidth: The maximum height in the nearest normal aspect ratio. Defaults to 16.
  */
-module.export = function(width, height, side, maxWidth, maxHeight) {
+export default function(width, height, side, maxWidth, maxHeight) {
     var
         ratio = (width * 100) / (height * 100),
         maxW = 3 in arguments ? arguments[2] : 16,
