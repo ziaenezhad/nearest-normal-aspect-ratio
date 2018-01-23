@@ -13,8 +13,8 @@ module.exports = function(width, height, side, maxWidth, maxHeight) {
     const ratio = width * 100 / (height * 100),
         maxW = 3 in arguments ? arguments[2] : 16,
         maxH = 4 in arguments ? arguments[3] : 16;
-    let ratiosW = new Array(maxW).join(",").split(","),
-        ratiosH = new Array(maxH).join(",").split(","),
+    let ratiosW = new Array(maxW).join(',').split(','),
+        ratiosH = new Array(maxH).join(',').split(','),
         ratiosT = {},
         ratios = {},
         match;
@@ -29,7 +29,7 @@ module.exports = function(width, height, side, maxWidth, maxHeight) {
 
             if (!ratiosT[ratioX]) {
                 ratiosT[ratioX] = true;
-                ratios[ratioW + ":" + ratioH] = ratioX;
+                ratios[ratioW + ':' + ratioH] = ratioX;
             }
         });
     });
