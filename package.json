@@ -1,6 +1,6 @@
 {
     "name": "nearest-normal-aspect-ratio",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Nearest Normal Aspect Ratio",
     "main": "index.js",
     "scripts": {
